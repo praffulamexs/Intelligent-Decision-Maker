@@ -22,8 +22,14 @@ matching = {
 }
 
 # Training Artificial Neural Network
-model = MLPClassifier(solver='adam')
-model.fit(X, Y)
+# model = MLPClassifier(solver='adam')
+# model.fit(X, Y)
+
+
+def train_ANN(a, b):
+   return MLPClassifier(solver="adam").fit(a, b)
+
+model = train_ANN(X, Y)
 
 ### Routes ###
 
