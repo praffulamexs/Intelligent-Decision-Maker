@@ -121,7 +121,4 @@ def main():
    ann.train()
    ann.predict()
 
-   # while True:
-   #    ann.predict()
-
 main()
